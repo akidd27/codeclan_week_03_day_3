@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    background-color: rgb(202, 157, 10);
+    color: black;
+    padding: 25px;
+}
+
+ul {
+    padding-left: 30px;
+}

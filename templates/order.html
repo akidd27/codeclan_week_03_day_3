@@ -1,0 +1,13 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <b>Customer Name:</b> {{ order.customer_name }}<br>
+        <b>Date:</b> {{ order.order_date }}<br>
+        <b>Title:</b> {{ order.book_title }}<br>
+        <b>Quantity:</b> {{ order.quantity }}<br>
+    </body>
+</html>
